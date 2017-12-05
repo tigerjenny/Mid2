@@ -9,5 +9,6 @@ public class Func8Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_func8);
+        setResult(RESULT_OK,getIntent());
     }
 }

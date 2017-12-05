@@ -10,13 +10,7 @@ public class Func3Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_func3);
-        this.fun3();
-
+        setResult(RESULT_OK,getIntent());
     }
-    public void fun3(){
-        setResult(RESULT_OK, getIntent());
-        finish();
-    }
-
 
 }

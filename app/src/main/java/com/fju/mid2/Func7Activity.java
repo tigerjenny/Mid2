@@ -9,5 +9,6 @@ public class Func7Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_func7);
+        setResult(RESULT_OK,getIntent());
     }
 }
